@@ -1,1 +1,17 @@
+// Online C compiler to run C program online
+#include <stdio.h>
 
+int main()
+{
+    // Status pembayaran laundry
+    int hargaLaundry, hasil;
+    scanf("%d",&hargaLaundry);
+    if(hargaLaundry >= 7000)
+    {
+        printf("Laundry lunas 7000\n");
+    }
+    else
+    {
+        printf("Laundry tidak lunas 7000\n");
+    }
+}
